@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="style/style.css"
+    </head>
+    <body>
+        <p>Uma página</p>
+        <script>
+            function teste(){
+                document.write("Apenas um teste");
+            }
+        </script>
+        <button onclick="teste()">Aperte Aqui</button>
+    </body>
+
+</html>

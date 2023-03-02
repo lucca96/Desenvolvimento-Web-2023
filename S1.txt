@@ -1,5 +1,0 @@
-https://www.python.org/ ---- Utilizar o Django para desenvolvimento web e servidores
-https://git-scm.com/ ----  Criar versões códigos para melhor organizar dos nossos projetos e compartilhamento com o professor
-https://code.visualstudio.com/ ---- IDE para desenvolver códigos em HTML, CSS e código javascript.
-https://sqlitebrowser.org/about/ ---- Biblioteca desenvolvida em C que implementa uma base de dados SQL
-https://www.google.com/intl/pt-BR/chrome/ ---- Navegador web, para testarmos os códigos escritos no vscode

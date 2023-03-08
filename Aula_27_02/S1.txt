@@ -3,3 +3,4 @@ https://git-scm.com/ ----  Criar versões códigos para melhor organizar dos nos
 https://code.visualstudio.com/ ---- IDE para desenvolver códigos em HTML, CSS e código javascript.
 https://sqlitebrowser.org/about/ ---- Biblioteca desenvolvida em C que implementa uma base de dados SQL
 https://www.google.com/intl/pt-BR/chrome/ ---- Navegador web, para testarmos os códigos escritos no vscode
+Exemplo de protocolo proprietário de internet: CDP - Cisco Discovery Protocol: Desenvolvido pela Cisco Systems, Inc. para permitir que dispositivos de rede Cisco descubram e se comuniquem uns com os outros. Referência: https://www.cisco.com/c/en/us/support/docs/discovery-protocol/19640-cdp-ios.html

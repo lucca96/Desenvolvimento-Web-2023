@@ -1,0 +1,27 @@
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    color: blue;
+}
+
+#primeiro{
+    height: 3em;
+    width: 3em;
+}
+
+
+#div1{
+    background-color: brown;
+    height: 500px;
+    width: 70px;
+}
+
+body{
+    font-family:'Roboto', sans-serif;;
+}
+
+span{
+    font-weight: bold;
+    color:red;
+    background-color: aqua;
+}

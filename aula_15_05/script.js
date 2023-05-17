@@ -60,7 +60,7 @@ for( const ele of meu_array){
 console.log('map',meu_array.map((e) => e+1))
 
 // alterando vetor
-minhas_img = minhas_img.map(
+minhas_img.forEach(
     (e) => {
         return e.caminho = "imagens/numero_"+ e.valor + ".png";
         
@@ -70,6 +70,17 @@ minhas_img = minhas_img.map(
 // manipulando dom
 minhas_img.forEach(
     (ele) => {
-        div_imagens.innerHTML += "<img src ="+ ele + ">";
+        div_imagens.innerHTML += "<img width=200 alt="${ele.descr}" src =${ele.caminho}>";
+        
     }
 );
+minhas_img.forEach(
+    (ele) => {
+        const imagem = document.createElement('img');
+        imagem.src = ele.caminho;
+        imagem.width = 200;
+        div_imagens.appendChild(imagem);
+    }
+);
+
+

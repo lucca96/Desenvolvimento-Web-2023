@@ -1,7 +1,27 @@
+// referencias
 const div_colorida = document.getElementById("colorida");
 const input_cor = document.getElementById("input_cor");
 const botao = document.getElementById("botao");
+const div_imagens = document.getElementById("imagens");
+
 const meu_array = [1,2,3,4,"casa"];
+let minhas_img = [
+    {
+        nome: "numero 1",
+        valor: 1,
+        descr: "num 1 com fundo amarelo"
+    },
+    {
+        nome: "numero 2",
+        valor: 2,
+        descr: "num 2 com fundo verm"
+    },
+    {
+        nome: "numero 3",
+        valor: 3,
+        descr: "num 3 em 3d"
+    }
+];
 
 div_colorida.style.height = '1em';
 div_colorida.style.backgroundColor = 'black';
@@ -38,3 +58,18 @@ for( const ele of meu_array){
 }
 
 console.log('map',meu_array.map((e) => e+1))
+
+// alterando vetor
+minhas_img = minhas_img.map(
+    (e) => {
+        return e.caminho = "imagens/numero_"+ e.valor + ".png";
+        
+    }
+);
+
+// manipulando dom
+minhas_img.forEach(
+    (ele) => {
+        div_imagens.innerHTML += "<img src ="+ ele + ">";
+    }
+);
